@@ -1,0 +1,27 @@
+{
+  "name": "course_js_tdd",
+  "version": "1.0.0",
+  "description": "Estudando testes com TDD em JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laugustofrontend/js_tdd.git"
+  },
+  "keywords": [
+    "JS",
+    "Testes",
+    "TDD",
+    "Mocha",
+    "Chai",
+    "Enzyme"
+  ],
+  "author": "Lucas Augusto <lucas.augusto5061@gmail.com> (https://lucasaugusto.eti.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laugustofrontend/js_tdd/issues"
+  },
+  "homepage": "https://github.com/laugustofrontend/js_tdd#readme"
+}
