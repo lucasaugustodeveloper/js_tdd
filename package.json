@@ -4,8 +4,10 @@
   "description": "Estudando testes com TDD em JavaScript",
   "main": "index.js",
   "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
     "lint": "./node_modules/.bin/eslint src/*.js",
-    "prepush": "npm run lint"
+    "prepush": "npm run lint && npm test",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --watch"
   },
   "repository": {
     "type": "git",
